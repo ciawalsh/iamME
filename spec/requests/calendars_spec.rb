@@ -12,7 +12,7 @@ RSpec.describe "Calendars", type: :request do
       get "/users/#{user.id}/calendars/#{calendar.id}.json"
 
       expect_json({name: calendar.name, start_date: Date.new(2015, 2, 3).strftime('%Y-%m-%d'),
-                   events: [event1.id, event2.id]})
+                   events: calendar.events.map(&:to_json)})
     end
   
   end
