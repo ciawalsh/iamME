@@ -7,14 +7,15 @@ RSpec.describe "Events", type: :request do
     it "returns event as json" do
       event = create(:event)
       get "/events/#{event.id}.json"
-      expect_json({name: "Football"})
+      date = event.date.strftime('%Y-%m-%d')
+      expect_json({name: "Football", date: date})
     end
   end
 
   describe "POST /events" do
 
     it "creates an event" do
-      post "/events.json", :event => {name: "Rollerderby"}
+      post "/events.json", :event => {name: "Rollerderby", date: Date.new}
       expect(response).to be_success
       expect(Event.find_by_name("Rollerderby")).not_to be_nil
     end
