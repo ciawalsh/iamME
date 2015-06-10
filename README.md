@@ -1,3 +1,4 @@
+# iamME - A Social Calendar App.
 ![image](https://raw.githubusercontent.com/guspowell/I_am_ME/master/app/assets/images/screenshot1.png)
 ==================
 [![Code Climate](https://codeclimate.com/github/ciawalsh/iamME/badges/gpa.svg)](https://codeclimate.com/github/ciawalsh/iamME) [![Test Coverage](https://codeclimate.com/github/ciawalsh/iamME/badges/coverage.svg)](https://codeclimate.com/github/ciawalsh/iamME)
