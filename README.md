@@ -1,19 +1,29 @@
-![image](https://raw.githubusercontent.com/ciawalsh/iamME/master/app/assets/images/iamME.png)
+![image](https://raw.githubusercontent.com/guspowell/I_am_ME/master/app/assets/images/screenshot1.png)
 ==================
 [![Code Climate](https://codeclimate.com/github/ciawalsh/iamME/badges/gpa.svg)](https://codeclimate.com/github/ciawalsh/iamME) [![Test Coverage](https://codeclimate.com/github/ciawalsh/iamME/badges/coverage.svg)](https://codeclimate.com/github/ciawalsh/iamME)
 ==================
 ## Synopsis
 
-For our Final Projects, we have chosen to work on Tom & Amar's idea of a visual calender that, depending on who you are following, will pop up with certain events on the respective days in which they are occuring.
+In our final two weeks at Makers Academy we have final projects in which we work as a team of five to produce a working web app.
+
+Our project involved working for a client who had envisioned a new way of discovering, saving and sharing events around you in an aesthetic, clean and readable way. Their idea was called iamME, they had a clear picture of what it was, and we were tasked with creating it and pushing it one step closer to reality.
+
+In short, the idea is you can create calendars based on your interests and then follow businesses, artists, friends to get an events feed tailored to you.
 
 ## Link to Site - Heroku/AWS (Live)
 
-- ...
+[iamME on Heroku](http://i-am-me.herokuapp.com/users/sign_in).
 
 ## Job List
 
-- ...
-- ...
+- [x] Users can sign in, sign out and register.
+- [x] Users are assigned a 'ME' calendar when they register.
+- [x] Users can create events in their MEcal.
+- [x] Events are displayed nicely with media content, maps, descriptions and are dynamic.
+- [ ] Users can search and follow other users.
+- [x] Users can create multiple calendars.
+- [x] Users can add events from a calendar to their MEcal.
+- [x] The calendar should be clean and visual.
 
 ## Technologies Used
 
